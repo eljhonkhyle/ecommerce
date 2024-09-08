@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1rem;
     font-family: 'Poppins';
   }
   
@@ -34,11 +34,13 @@
   }
   
   .nav-link a {
+    cursor: pointer;
     color: var(--title-color);
     font-size: var(--small-font-size);
     font-weight: var(--font-normal);
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
   }
   
   .nav-link a:hover {

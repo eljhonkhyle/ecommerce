@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa"; // Import the search icon
+import { Link } from "react-scroll";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -13,22 +14,48 @@ const Navbar = () => {
       <nav>
         <ul className="nav-list">
           <li className="nav-link">
-            <a
-              href="#home"
+            <Link
+              to="#home"
+              smooth={true}
+              duration={500}
               onClick={() => setActiveNav("#home")}
               className={activeNav === "#home" ? "nav-active" : ""}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-link">
-            <a href="#about">About</a>
+            <Link
+              to="#about"
+              smooth={true}
+              duration={500}
+              onClick={() => setActiveNav("#about")}
+              className={activeNav === "#about" ? "nav-active" : ""}
+            >
+              About
+            </Link>
           </li>
           <li className="nav-link">
-            <a href="#product">Product</a>
+            <Link
+              to="#product"
+              smooth={true}
+              duration={500}
+              onClick={() => setActiveNav("#product")}
+              className={activeNav === "#product" ? "nav-active" : ""}
+            >
+              Product
+            </Link>
           </li>
           <li className="nav-link">
-            <a href="#contact">Contact</a>
+            <Link
+              to="#contact"
+              smooth={true}
+              duration={500}
+              onClick={() => setActiveNav("#contact")}
+              className={activeNav === "#contact" ? "nav-active" : ""}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
