@@ -13,7 +13,7 @@ const Home = () => {
         <button className="cta-button">Order Now</button>
       </header>
 
-      <section className="about-us">
+      <section className="about-us" id="about">
         <h2>About Us</h2>
         <p>
           At EKB Coffee, we pride ourselves on serving the finest coffee made
@@ -245,7 +245,7 @@ const Home = () => {
         </svg>
       </section>
 
-      <section className="featured-products">
+      <section className="featured-products" id="product">
         <h2>Featured Products</h2>
         <div className="product-list">
           <div className="product">

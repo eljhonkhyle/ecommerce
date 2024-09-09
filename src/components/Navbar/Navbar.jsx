@@ -7,7 +7,7 @@ const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <header className="header">
+    <header className="header" id="home">
       <div className="logo-container">
         <h1 className="logo">EKB COFFEE</h1>
       </div>
@@ -15,7 +15,7 @@ const Navbar = () => {
         <ul className="nav-list">
           <li className="nav-link">
             <Link
-              to="#home"
+              to="home"
               smooth={true}
               duration={500}
               onClick={() => setActiveNav("#home")}
@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
           <li className="nav-link">
             <Link
-              to="#about"
+              to="about"
               smooth={true}
               duration={500}
               onClick={() => setActiveNav("#about")}
@@ -37,7 +37,7 @@ const Navbar = () => {
           </li>
           <li className="nav-link">
             <Link
-              to="#product"
+              to="product"
               smooth={true}
               duration={500}
               onClick={() => setActiveNav("#product")}
@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
           <li className="nav-link">
             <Link
-              to="#contact"
+              to="contact"
               smooth={true}
               duration={500}
               onClick={() => setActiveNav("#contact")}
