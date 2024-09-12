@@ -13,6 +13,7 @@ const About = () => {
       </p>
 
       <svg
+        className="about-img"
         xmlns="http://www.w3.org/2000/svg"
         data-name="Layer 1"
         width="629.13137"

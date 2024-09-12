@@ -1,4 +1,12 @@
+h2{
+    color: #991b1b;
+}
 .about-us {
     padding: 20px;
     text-align: center;
+}
+
+.about-img {
+    width: 50%;
+    height: auto;
 }
